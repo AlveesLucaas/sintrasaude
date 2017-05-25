@@ -16,6 +16,17 @@ footer{
 h2{
   color: #da4458;
 }
+
+#convenio h3{
+    
+    color: #da4458
+}
+
+#sobre_diretoria h3{
+    
+    color: #da4458
+}
+
 .navbar .navbar-nav {
 display: inline-block;
 float: none !important;
