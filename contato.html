@@ -4,7 +4,7 @@
 <head>
 
     <title>Contato</title>
-    
+
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,29 +15,24 @@
 
     <meta name="author" content="Lucas Alves">
 
-     <link rel="shortcut icon" href="img/logo_tab_raiz.png" >
-    
+    <link rel="shortcut icon" href="img/logos/logo_tab_raiz.png">
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+
     <link href="css/estilo.css" rel="stylesheet">
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
-    
-    
-    
-    
-    
+
 </head>
-    
+
 <body>
-    
+
     <!--Logo-->
-    
+
     <div class="container" background-color="#d6d6d6">
-        <a href="index.html"><img class="img-responsive img-portfolio " src="img/230x157.png" alt="logo sintrasaude"/></a>
+        <a href="index.html"><img class="img-responsive img-portfolio " src="img/logos/logo_sintra230x157.png" alt="logo sintrasaude" /></a>
     </div>
-    
+
     <!--Navbar-->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -48,6 +43,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                <div class="hidden-md hidden-lg hidden-sm"><a class="navbar-brand" href="index.html">Sintra Saúde</a></div>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar">
@@ -65,7 +61,7 @@
                             </li>
                         </ul>
                     </li>
-                    
+
                     <li>
                         <a href="associese.html">Associe-se</a>
                     </li>
@@ -85,82 +81,82 @@
             </div>
         </div>
     </nav>
-    
-    
-   
-    
+
+
+
+
     <!--Fale Conosco-->
     <section class="container">
-                    <div id="fale-conosco">
+        <div id="fale-conosco">
 
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="control-group form-group">
-                            <div class="controls">
-                                <label>Nome</label>
-                                <input type="text" class="form-control" id="nome" required data-validation-required-message="Por favor, digite seu nome." placeholder="Nome completo">
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Nome</label>
+                        <input type="text" class="form-control" id="nome" required data-validation-required-message="Por favor, digite seu nome." placeholder="Nome completo">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
 
-                        <div class="control-group form-group">
-                            <label>Telefone</label>
-                            <div class="input-group">
-                                <div class="input-group-addon"><i class="fa fa-phone"></i> </div>
-                                <input type="tel" class="form-control" id="fone" required data-validation-required-message="Por favor, digite um número de telefone" placeholder="(DDD)0000-0000">
-                            </div>
-                        </div>
+                <div class="control-group form-group">
+                    <label>Telefone</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-phone"></i> </div>
+                        <input type="tel" class="form-control" id="fone" required data-validation-required-message="Por favor, digite um número de telefone" placeholder="(DDD)0000-0000">
+                    </div>
+                </div>
 
-                        <div class="control-group form-group">
-                            <label>Email</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">@</div>
-                                <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor, digite um email válido" placeholder="Email">
-                            </div>
-                        </div>
+                <div class="control-group form-group">
+                    <label>Email</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor, digite um email válido" placeholder="Email">
+                    </div>
+                </div>
 
-                        <div class="grupo-radio">
-                            <div class="radio">
-                                <label>
+                <div class="grupo-radio">
+                    <div class="radio">
+                        <label>
                                             <input type="radio" name="tipo-pessoa" value="fisica" checked>
                                             Pessoa física
                                         </label>
-                            </div>
+                    </div>
 
-                            <div class="radio">
-                                <label>
+                    <div class="radio">
+                        <label>
                                                 <input type="radio" name="tipo-pessoa" value="juridica">
                                                 Pessoa jurídica
                                             </label>
-                            </div>
-                        </div>
-
-                        <div class="control-group form-group">
-                            <div class="controls">
-                                <label>Mensagem</label>
-                                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                            </div>
-                        </div>
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
+                    </div>
                 </div>
+
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Mensagem</label>
+                        <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                    </div>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
         <hr>
     </section>
-    
-    </body>
-    
-     <footer>
-        <section class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" align=middle>
-                    <hr>
-                    <p><a href="http://www.avrinformatica.com.br/">AVR Informática</a> &copy; 2017</p>
-                </div>
+
+</body>
+
+<footer>
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12" align=middle>
+                <hr>
+                <p><a href="http://www.avrinformatica.com.br/">AVR Informática</a> &copy; 2017</p>
             </div>
-        </section>
-    </footer>
-    
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
+        </div>
+    </section>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 </html>
